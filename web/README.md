@@ -1,8 +1,8 @@
 ### Installing
 
  - cd into the project folder
- - run `npm install`
- - start in dev env.  `npm run dev `
+ - run `yarn install`
+ - start in dev env.  `yarn start `
 
 
 
