@@ -82,7 +82,7 @@ class Filter extends Component {
 
     return (
       <Row gutter={24}>
-        <Col {...ColProps} xl={{ span: 4 }} md={{ span: 8 }}>
+        <Col {...ColProps} xl={{ span: 10 }} md={{ span: 10 }}>
           {getFieldDecorator('name', { initialValue: name })(
             <Search
               placeholder={i18n.t`Search Name`}

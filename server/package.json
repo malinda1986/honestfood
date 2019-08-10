@@ -6,11 +6,13 @@
   "author": "Malinda Ranasinghe",
   "private": true,
   "dependencies": {
+    "@mapbox/leaflet-pip": "^1.1.0",
     "bluebird": "^3.5.5",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "geolocation-utils": "^1.2.2",
     "gtran-kml": "^1.2.3",
     "helmet": "^3.20.0",
     "morgan": "^1.9.1",

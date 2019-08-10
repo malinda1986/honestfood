@@ -101,7 +101,7 @@ export default {
         store.set('isInit', true)
         if (pathMatchRegexp(['/', '/login'], window.location.pathname)) {
           router.push({
-            pathname: '/location',
+            pathname: '/user',
           })
         }
       } else if (queryLayout(config.layouts, locationPathname) !== 'public') {

@@ -7,7 +7,7 @@ export default {
   loginUser: 'POST /user/login',
 
   queryUser: '/user/:id',
-  queryUserList: '/users/address',
+  queryUserList: 'POST /users/address',
   updateUser: 'Patch /user/:id',
   createUser: 'POST /user',
   removeUser: 'DELETE /user/:id',

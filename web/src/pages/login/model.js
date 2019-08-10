@@ -16,10 +16,10 @@ export default {
         const { from } = locationQuery
         yield put({ type: 'app/query' })
         if (!pathMatchRegexp('/login', from)) {
-          if (['', '/'].includes(from)) router.push('/location')
+          if (['', '/'].includes(from)) router.push('/user')
           else router.push(from)
         } else {
-          router.push('/location')
+          router.push('/user')
         }
       } else {
         throw data

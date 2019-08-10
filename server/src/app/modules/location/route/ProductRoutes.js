@@ -4,7 +4,7 @@ const router = express.Router();
 
 function LocationRoutes(handler) {
     router.route('/address')
-        .get(handler(location.findLocation));
+        .post(handler(location.findLocation));
     return router;
 }
 module.exports = LocationRoutes;
